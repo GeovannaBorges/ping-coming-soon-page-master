@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+    <div id="container">
+
+   <img src="images/logo.svg">
+   <p id="title"> We are lauching <span>soon!</span></p>
+   <p id="text">Subscribe and get notified</p>
+
+   <div id="email-area">
+   <input type="text" placeholder="      Your email adress..." id="txt-box" class="error-state" onclick="removeStyles()">
+   <button id="notification-btn" onclick="submitEmail()"> Notify me </button>
+   <p id="error-msg"></p>
+  </div>
+
+  <img src="images/illustration-dashboard.png" alt="" id="dashboard-img">
+
+  <div id="btn-area">
+    <button id="fcbook-btn"><a href="#"><img src="images/889100.png" id="fcbook-img" ></a></button>
+    <button id="tt-btn"><a href="#"><img src="images/twitter-logo-vector-png-clipart-1.png" id="tt-img" ></a></button>
+    <button id="insta-btn"><a href="#"><img src="images/png-transparent-instagram-logo-social-media-medtempnow-computer-icons-logo-instagram-blue-text-internet-thumbnail.png" id="insta-img" ></a></button>
+  </div>
+
+  <footer id="copyright">&copy;Copyright Ping. All rights reserved </footer>
+
+    </div>
+
+    
+
+</body>
+</html>
